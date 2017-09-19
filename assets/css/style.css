@@ -1,0 +1,45 @@
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.team-header {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.team-member {
+  position: relative;
+  overflow: hidden;
+}
+
+.member-image img {
+  border: none;
+  margin: auto;
+  display: block;
+  /*HOVER EFFECT*/
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .23s ease-in-out;
+}
+
+.member-image img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#map {
+  height: 400px;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.map-header {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
