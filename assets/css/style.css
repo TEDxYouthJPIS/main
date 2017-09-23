@@ -64,6 +64,10 @@
   position: relative;
   overflow: hidden;
 }
+.speaker-2015 {
+  position: relative;
+  overflow: hidden;
+}
 
 .speaker-last-image img {
   border: none;
@@ -74,13 +78,27 @@
   -webkit-filter: grayscale(1);
   -webkit-transition: all .23s ease-in-out;
 }
+.speaker-2015-image img {
+  border: none;
+  margin: auto;
+  display: block;
+  /*HOVER EFFECT*/
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .23s ease-in-out;
+
+}
 
 .speaker-last-image img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
 }
-
+.speaker-2015-image img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
 
 
 #map {
