@@ -14,6 +14,7 @@
   padding-bottom: 50px;
   padding-top: 50px;
 }
+
 .speaker-person {
   position: relative;
   overflow: hidden;
@@ -23,6 +24,7 @@
   position: relative;
   overflow: hidden;
 }
+
 
 .member-image img {
   border: none;
@@ -54,6 +56,32 @@
   -webkit-filter:grayscale(0);
   -webkit-transform: scale(1.01);
 }
+
+
+
+
+.speaker-last {
+  position: relative;
+  overflow: hidden;
+}
+
+.speaker-last-image img {
+  border: none;
+  margin: auto;
+  display: block;
+  /*HOVER EFFECT*/
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .23s ease-in-out;
+}
+
+.speaker-last-image img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+
 
 #map {
   height: 400px;
