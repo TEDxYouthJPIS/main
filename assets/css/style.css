@@ -127,3 +127,20 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#footer{
+  overflow: hidden;
+  margin-left: -64px;
+  margin-right: -64px;
+  
+
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  background-color: #333333;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px 0 10px 0;
+}
