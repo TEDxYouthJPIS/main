@@ -135,7 +135,17 @@
   
 
 }
+#banner {
+    background-color: #db3535;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    cursor: default;
+    padding: 10em 4em 9em 4em;
+  }
 
+  #banner h1 {
+    font-size: 2em;
+  }
 .footer {
   color: white;
   text-align: center;
@@ -143,4 +153,137 @@
   font-size: 15px;
   margin-top: 10px;
   padding: 10px 0 10px 0;
+}
+.cd-section {
+  padding-bottom: 100em;
+  padding-right: 20em;
+  text-align: center;
+}
+.cd-section ul {
+  list-style-type: none;
+}
+.cd-section .cd-container {
+  /* this modifies the .cd-container default max-width */
+  max-width: 768px;
+}
+.cd-section h2 {
+  font-family: "Droid Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+.cd-section p {
+  line-height: 1.4;
+}
+@media only screen and (min-width: 768px) {
+  .cd-section {
+    padding-bottom: 50em;
+    padding-right: 2em;
+    padding-top: 1em;
+  }
+  .cd-section p {
+    line-height: 1.6;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .cd-section {
+    padding-bottom: 50em;
+    padding-right: 2em;
+    padding-top: 1em;
+  }
+  .cd-section h2 {
+    margin-bottom: 2em;
+  }
+  .cd-section p {
+    line-height: 1.8;
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+#cd-team {
+  background: #d6d6d8;
+}
+#cd-team .cd-container {
+  max-width: 1200px;
+}
+#cd-team h2 {
+  color: #1a2f2a;
+}
+#cd-team li {
+  margin-bottom: 2em;
+  border-radius: 0.25em;
+  box-shadow: 0 0 10px rgba(92, 75, 81, 0);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.no-touch #cd-team li:hover {
+  box-shadow: 0 0 10px rgba(92, 75, 81, 0.3);
+}
+.no-touch #cd-team li:hover .cd-img-overlay {
+  opacity: 1;
+}
+#cd-team figure {
+  position: relative;
+}
+#cd-team img {
+  display: block;
+  width: 100%;
+  border-radius: .25em .25em 0 0;
+}
+#cd-team .cd-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(92, 75, 81, 0.9);
+  opacity: 0;
+  border-radius: .25em .25em 0 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+#cd-team .cd-img-overlay span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  color: #FFF;
+}
+#cd-team .cd-member-info {
+  height: 120px;
+  background: #FFF;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+  border-radius: 0 0 .25em .25em;
+}
+#cd-team .cd-member-info span {
+  display: block;
+  font-family: "Droid Serif", serif;
+  font-weight: normal;
+  color: #999999;
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin-top: .5em;
+}
+@media only screen and (min-width: 768px) {
+  #cd-team li {
+    width: 31%;
+    float: left;
+    margin-right: 3.5%;
+  }
+  #cd-team li:nth-child(3n) {
+    margin-right: 0;
+  }
 }
