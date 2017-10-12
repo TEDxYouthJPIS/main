@@ -147,12 +147,12 @@
     font-size: 2em;
   }
 .footer {
-  color: white;
+  color: rgba(255,255,255,.9);
   text-align: center;
   background-color: #333333;
-  font-size: 15px;
+  font-size: 13px;
   margin-top: 10px;
-  padding: 10px 0 10px 0;
+  padding: 5px 0px 5px 0;
 }
 .cd-section {
   padding-bottom: 100em;
