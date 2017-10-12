@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200);
+
+body {
+    color: #858585;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+h4,
+.h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1170px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.team
+{
+    width: 370px;
+    min-height: 100%;
+    border: 1px solid rgba(133,133,133,.15);
+    background-color: #fff;
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    box-shadow: 0 0 8px rgba(0,0,0,.09);
+    float: left;
+    margin-left: 16px;
+}
+
+.team h4 {
+    text-align:center;
+    margin-bottom: 2px;
+    margin-top: 25px;
+}
+
+.team .bio {
+    text-align: center;
+    margin-top: -14px;
+    margin-bottom:-8px;
+    padding:30px;
+
+}
+
+
+.teamimg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -80px;
+    width:170px;
+    height:170px;
+  /*  background: #1bbc9d;*/
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+}
+
+.teamimg > img {
+    width:170px;
+    height:170px;
+}
+
+
+
+
+
+/* Blur */
+.img-hover  img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.img-hover img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
