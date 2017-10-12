@@ -155,6 +155,10 @@
     color: rgba(255,255,255,1s);
 }
 
+#spacer {
+  width: 100%;
+  height: 100px;
+}
 
 .footer {
   color: rgba(255,255,255,.9);
