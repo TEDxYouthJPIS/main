@@ -105,6 +105,36 @@
 }
 
 
+/*NAVBAR OVERRIDING*/
+
+#override .navbar {
+  background-color: rgb(252,46,31);
+  border: none;
+}
+
+#override .navbar a {
+  color: #fff;
+}
+
+#override .active a {
+  color: rgb(252,46,31);
+  background-color: white;
+}
+
+#override .navbar .icon-bar {
+  background-color: white;
+  color: rgb(252,46,31);
+  border-color: white;
+}
+
+#override .navbar .icon-bar:hover {
+  border-color: black;
+}
+
+
+
+
+
 #map {
   height: 400px;
   width: 90%;
@@ -128,12 +158,13 @@
 /*BG STATIC IMAGE*/
 
 .parallax {
-  background-image: url("https://pi.tedcdn.com/r/pl.tedcdn.com/social/ted-logo-fb.png?v=wAff13s");
-  min-height: 500px;
+  background-image: url("../images/TEDx1.png");
+  background-size: auto;
+  height: 600px;
+  max-width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #footer{
