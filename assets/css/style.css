@@ -10,10 +10,20 @@
   text-transform: uppercase;
 }
 
+.center-justified {
+  text-align: justify;
+  margin: 0 15%;
+}
+
 .team-header {
   padding-bottom: 50px;
   padding-top: 50px;
 }
+
+#override .team-rows .col {
+  padding-bottom: 10px;
+}
+
 .speaker-header {
   padding-bottom: 50px;
   padding-top: 50px;
