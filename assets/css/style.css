@@ -1,6 +1,12 @@
 * {
   font-family: 'Roboto';
+
 }
+
+#override button:focus {
+  outline:0;
+}
+
 
 .text-center {
   text-align: center;
@@ -221,8 +227,6 @@
   padding: 5px 0px 5px 0;
 }
 .cd-section {
-  padding-bottom: 100em;
-  padding-right: 20em;
   text-align: center;
 }
 .cd-section ul {
@@ -329,20 +333,20 @@
   height: 125px;
   background: #FFF;
   text-align: center;
-  font-family: "Droid Sans", sans-serif;
   font-weight: bold;
   padding-top: 20px;
   border-radius: 0 0 .25em .25em;
   font-size: large;
+  padding-bottom: 5px;
 }
 #cd-team .cd-member-info span {
   display: block;
-  font-family: "Droid Serif", serif;
   font-weight: normal;
-  color: #999999;
+  color: rgb(121,126,130);
   font-size: 14px;
   font-size: 1.5rem;
   margin-top: .5em;
+  padding-bottom: 5px;
 }
 @media only screen and (min-width: 768px) {
   #cd-team li {
@@ -419,4 +423,18 @@
 
 #override .contact-us .row {
   padding-top: 20px;
+}
+
+
+
+#override #cd-team .btn-info {
+  border: none;
+  font-size: 80%;
+}
+
+
+#override #cd-team .btn-info:hover, .btn-info:active:focus {
+  color: #fff;
+  background-color: #f92f20;
+  border: none;
 }
