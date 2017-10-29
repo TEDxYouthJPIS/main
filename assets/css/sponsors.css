@@ -5,7 +5,7 @@
 .sponsor-wrapper .sponsor {
 	background-color: #fff;
 	position: relative;
-	
+
 	display: block;
 	margin: auto;
 	padding: 80px;
@@ -20,10 +20,10 @@
     vertical-align: middle;*/
 
 /*	HOVER EFFECT*/
-    opacity:0.65;
+    opacity:1;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    
+
 }
 
 #override .sponsor img:hover {
