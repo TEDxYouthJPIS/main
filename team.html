@@ -24,40 +24,63 @@
 	<script type="text/javascript" src="assets/scripts/script.js"></script>
 	<script type="text/javascript" src="assets/scripts/aos.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Event",
+			"name": "TEDxYouth@JPIS",
+			"startDate": "2017-12-01",
+			"location": {
+				"@type": "Place",
+				"name": "JPIS",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "Jayshre Periwal International School",
+					"addressLocality": "Jaipur",
+					"addressRegion": "Rajasthan",
+					"addressCountry": "India",
+					"postalCode": "302026"
+				}
+			},
+			"description": "Meet the Team",
+			"url": "http://www.facebook.com/tedxjpis"
+		}
+	</script>
 </head>
 
 <body id="override">
 
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<span itemscope itemtype="http://schema.org/Event"><nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-					</button>
-				<a class="navbar-brand" href="index.html">TEDxYouth@JPIS</a>
-			</div>
-			<div id="navbarCollapse" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<!-- <li><a href="index.html">Home</a></li> -->
-					<li><a href="index.html">Speakers '17</a></li>
-					<li><a href="speaker16.html">Speakers '16</a></li>
-					<li><a href="speaker15.html">Speakers '15</a></li>
-					<li class="active"><a href="team.html">Team</a></li>
-					<li><a href="sponsors.html">Sponsors</a></li>
-					<li><a href="contact.html">Contact us</a></li>
-					<li><a href="nominate.html">Nominate A Speaker</a></li>
-				</ul>
-			</div>
-		</div>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="index.html"><span itemprop="name">TEDxYouth@JPIS</span></a>
+	</div>
+	<div id="navbarCollapse" class="collapse navbar-collapse">
+		<ul class="nav navbar-nav">
+			<!-- <li><a href="index.html">Home</a></li> -->
+			<li><a href="index.html">Speakers '17</a></li>
+			<li><a href="speaker16.html">Speakers '16</a></li>
+			<li><a href="speaker15.html">Speakers '15</a></li>
+			<li class="active"><a href="team.html">Team</a></li>
+			<li><a href="sponsors.html">Sponsors</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+			<li><a href="nominate.html">Nominate A Speaker</a></li>
+		</ul>
+	</div>
+	</div>
 	</nav>
 
 
 	<section id="banner" class="short-banner">
 		<div class="inner">
-			<h1>TEDxYouth@JPIS 2017 Team</h1>
+			<h1 itemprop="description">TEDxYouth@JPIS 2017 Team</h1>
 		</div>
 	</section>
 
@@ -67,15 +90,15 @@
 			<div class="row">
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 30px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/yash_b.JPG"></div>
-					<h4>Yash Bairathi</h4>
+						<img src="assets/member-image/yash_b.JPG"></div>
+					<span itemprop="performer" itemscope itemtype="http://schema.org/Person"><h4 itemprop="name"><h4>Yash Bairathi</h4></span>
 					<p class="center-align caps">Curator & Licensee</p>
 					<p class="center-justified">Enterprising, tenacious, and unpretentious is what Yash sees when he looks in the mirror. He not only tickles others' funny bones, he himself is a funny bone. With a thirst to learn from various paradigms, Yash displays interests like MUNing and
 						economics. MVP or a benchwarmer, he takes up different roles as per the need. With his great leadership capabilities, Yash will work effortlessly to make this year's event even more enjoyable and memorable for all the attendees.</p>
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 50px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/samiksha_p.JPG"></div>
+						<img src="assets/member-image/samiksha_p.JPG"></div>
 					<h4>Samiksha Patni</h4>
 					<p class="center-align caps">Curator</p>
 					<p class="center-justified">Her remarkable social skills and a huge contact list is what makes her just the right individual to be leading our team. With a love for writing, food, and enterprise, our curator brings the right amount of energy and wit when life gets too tense.
@@ -83,7 +106,7 @@
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 90px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/anushree_g.JPG"></div>
+						<img src="assets/member-image/anushree_g.JPG"></div>
 					<h4>Anushree Goyal</h4>
 					<p class="center-align caps">Creative Head</p>
 					<p class="center-justified">Anushree, while not that good with a paint brush, can create art through her words. Her imagination and passion for work set her apart. With her dedication and photoshop skills, Anushree Goyal is a valuable asset to the team. Her knack for problem
@@ -94,7 +117,7 @@
 			<div class="row">
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 10px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/muskaan_m.jpeg"></div>
+						<img src="assets/member-image/muskaan_m.jpeg"></div>
 					<h4>Muskaan Maheshwari</h4>
 					<p class="center-align caps">Creative Head</p>
 					<p class="center-justified">Our next storyteller is creative, flexible and dedicated. Muskaan, an artist at heart, makes sure she achieves every goal she sets for herself. According to her, teamwork is something that provides an opportunity to interact with various mindsets.
@@ -102,7 +125,7 @@
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/tarisha_c.jpeg"></div>
+						<img src="assets/member-image/tarisha_c.jpeg"></div>
 					<h4>Tarisha Chhabra</h4>
 					<p class="center-align caps">Creative Head</p>
 					<p class="center-justified">Tarisha Chhabra loves experimenting with various mediums of art ranging from doodling at end pages of her math notebook to filling empty canvases. Learning how to play around with colors, layouts, fonts and alignment in various softwares has made
@@ -110,7 +133,7 @@
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 30px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/anirudh_a.JPG"></div>
+						<img src="assets/member-image/anirudh_a.JPG"></div>
 					<h4>Anirudh Agarwal</h4>
 					<p class="center-align caps">Finance Head</p>
 					<p class="center-justified">High on analytical skills and unwavering professionalism, Anirudh is a keen learner with intellectual curiosity. With the energy to drive himself and others forward through passionate motivation, he will make the team 'unlock' its best potential.
@@ -121,7 +144,7 @@
 			<div class="row">
 				<div class="team col col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 130px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/sukriti_s.jpeg"></div>
+						<img src="assets/member-image/sukriti_s.jpeg"></div>
 					<h4>Sukriti Sen</h4>
 					<p class="center-align caps">Finance Head</p>
 					<p class="center-justified">Meet Sukriti Sen - pleasant and efficient, not only is she a great communicator but also a superb negotiator. Her proficiency in the field of finance and her tireless determination to excel are what make her such an integral part of the TEDxYouth@JPIS
@@ -129,7 +152,7 @@
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 50px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/aryan_b.jpg"></div>
+						<img src="assets/member-image/aryan_b.jpg"></div>
 					<h4>Aryan Bhasin</h4>
 					<p class="center-align caps">Tech Head</p>
 					<p class="center-justified">The Computer-Tamer, the Whiz-Kid, or sometimes simply (and sadly) the tech ‘guy', Aryan Bhasin is referred to by many names; his personality, however, spans far wider than just being smart. Outspoken, outright, opinionated, sarcastic, and determined
@@ -138,7 +161,7 @@
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/bhavya_g.jpg"></div>
+						<img src="assets/member-image/bhavya_g.jpg"></div>
 					<h4>Bhavya Gupta</h4>
 					<p class="center-align caps">Rule Maven</p>
 					<p class="center-justified">Rule Maven: Here we have Bhavya, the intellectual, empowered, and with a special gift of strong memory. With his exceptional leadership qualities and his patient nature, he is here to take the team at par with the rules and to keep everyone together
@@ -150,7 +173,7 @@
 			<div class="row">
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 50px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/malvika_a.png"></div>
+						<img src="assets/member-image/malvika_a.png"></div>
 					<h4>Malvika Agarwal</h4>
 					<p class="center-align caps">Event Day Head</p>
 					<p class="center-justified">First we have Malvika Agarwal, witty and smart, creative and artistic. Apart from her impressive brush strokes and stunning paintings Malvika also possesses the perfect qualities to ensure this TEDxYouth@JPIS is an absolute success; she is a natural
@@ -158,7 +181,7 @@
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/vardhan_s.jpg"></div>
+						<img src="assets/member-image/vardhan_s.jpg"></div>
 					<h4>Vardhan Sharma</h4>
 					<p class="center-align caps">Event Day Head</p>
 					<p class="center-justified">Our other event head is Vardhan Sharma, who apart from showing interest in the Theory of Everything, is a perfect combination of intelligence and sarcasm. The way numbers dance on his fingertips, under his guidance, you can make sure that nothing
@@ -166,7 +189,7 @@
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 70px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/priyan_k.JPG"></div>
+						<img src="assets/member-image/priyan_k.JPG"></div>
 					<h4>Priyan Khalsa</h4>
 					<p class="center-align caps">Host</p>
 					<p class="center-justified">While her Punjabi heredity has always reflected in her bold personality, Priyan is way more than just a "Punjaban". Her creative identity spans a plethora of things, the most prominent of which is her command over the spoken. With magnificent oratory
@@ -177,7 +200,7 @@
 			<div class="row">
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 30px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/sameera_s.jpeg"></div>
+						<img src="assets/member-image/sameera_s.jpeg"></div>
 					<h4>Sameera Singh</h4>
 					<p class="center-align caps">Host</p>
 					<p class="center-justified">Fun, vivacious, effusive and bubbly, words fall short of capturing the enigma that is Sameera Singh. With a pen in her hand and her thinking hat constantly on, Sameera’s creative genius is constantly tingling, full of ideas ready to change the world.
@@ -185,14 +208,14 @@
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12" style="padding-bottom: 70px;">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/soumit_r.jpeg"></div>
+						<img src="assets/member-image/soumit_r.jpeg"></div>
 					<h4>Soumit Roy</h4>
 					<p class="center-align caps">Volunteer Head</p>
 					<p class="center-justified">Soumit Roy - the name is an adjective in itself, combining the attributes of dedication and a sense of fiery passion. Born a leader, he has always been a people's person and therefore, could not be more perfect for the position of the Volunteer Head.</p>
 				</div>
 				<div class="team col col-md-6 col-lg-4 col-sm-12">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/dhwani_j.jpeg"></div>
+						<img src="assets/member-image/dhwani_j.jpeg"></div>
 					<h4>Dhwani Jain</h4>
 					<p class="center-align caps">Volunteer Head</p>
 					<p class="center-justified">For our volunteer head, life is a journey best experienced through the eyes of a marketeer. With a deep understanding of how the world works, Dhwani sells herself as one of the most amicable, trusting and dedicated team player there is. Her passion
@@ -203,7 +226,7 @@
 			<div class="row">
 				<div class="team col col-md-6 col-lg-4 col-sm-12">
 					<div class="teamimg img-hover" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-out-sine" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
-					<img src="assets/member-image/yukta_t.jpg"></div>
+						<img src="assets/member-image/yukta_t.jpg"></div>
 					<h4>Yukta Taneja</h4>
 					<p class="center-align caps">Media Head</p>
 					<p class="center-justified">Looking out for the simple visual joys of life has always intrigued her to its fullest, be it a breath taking sunset or an old man sipping tea on the street, everything around her entices her wit in some way or the other making her want to capture
@@ -212,7 +235,7 @@
 			</div>
 
 	</section>
-
+	</span>
 	<div id="footer" class="container-fluid">
 		<footer class="row footer">
 			<span>Created By - Aryan Bhasin | Aryan Singh | Ayush Munot | Mohammad Darvish | Priyansh Patni |</span>
@@ -224,11 +247,11 @@
 	<script src="assets/scripts/skel.min.js"></script>
 	<script src="assets/scripts/util.js"></script>
 	<script src="assets/scripts/main.js"></script>
-	  	<!--Loading Scripts-->
- 	 <script type="text/javascript" src="assets/scripts/aos.js"></script>
- 	 <script type="text/javascript">
-     AOS.init();
-  	 </script>
+	<!--Loading Scripts-->
+	<script type="text/javascript" src="assets/scripts/aos.js"></script>
+	<script type="text/javascript">
+		AOS.init();
+	</script>
 
 </body>
 
