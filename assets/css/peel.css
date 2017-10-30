@@ -621,7 +621,7 @@ body {
 }
 
 .peel-item__bg__inner {
-  background: url(http://www.baltana.com/files/wallpapers-4/Black-Desktop-Wallpaper-14948.jpg) left bottom;
+  background: #000 left bottom;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
