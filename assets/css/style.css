@@ -6,6 +6,10 @@
   outline: 0;
 }
 
+#override .navbar {
+  z-index: 9;
+}
+
 .text-center {
   text-align: center;
 }
