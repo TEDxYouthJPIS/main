@@ -184,11 +184,11 @@
 }
 
 #banner {
-  background-color: #db3535;
-  color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.95) ;
+  color: #db3535;
   text-align: center;
   cursor: default;
-  padding: 10em 4em 9em 4em;
+  padding: 10em 4em 0em 4em;
 }
 
 #banner h1 {
@@ -196,10 +196,8 @@
 }
 
 #override .short-banner {
-  height: 200px;
   vertical-align: middle;
   padding-top: 6em;
-  color: rgba(255, 255, 255, 1s);
 }
 
 #spacer {
