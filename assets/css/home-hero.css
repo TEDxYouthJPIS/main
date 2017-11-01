@@ -1,9 +1,101 @@
+* {
+    font-family: 'Futura';
+}
 #timer{
+  position: sticky;
+  display: block;
+  left: 51%;
+  top: 65%;
+  text-align: center;
+  font-size: 1.85vw;
+  margin-top: 35px;
+  color: #000;
+}
+
+.date{
+  position: sticky;
+  display: block;
+  left: 51%;
+  top: 40%;
+  text-align: center;
+  font-size: 1.75vw;
+  margin-top: 35px;
+}
+
+.theme-header {
+  position: sticky;
+  display: block;
+  left: 51%;
+  top: 45%;
+  margin: 0 100px;
+}
+
+.theme-header-h1 {
+  text-align: center;
+  font-size: 4vw;
+  color: #000;
+  z-index: 11;
+}
+
+.tagline {
+  position: sticky;
+  display: block;
+  left: 51%;
+  top: 58%;
+  margin: 0 75px;
+}
+
+.tagline-h3 {
+  text-align: center;
+  font-size: 2vw;
+  color: #000;
+  z-index: 11;
+}
+
+.unleash {
+  color: rgb(252, 46, 31);
+  font-weight: bold;
+  text-align: center;
+  font-size: 2vw;
+  z-index: 11;
+}
+
+.hero-img-wrapper {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 45%;
+  top: 30%;
   left: 50%;
   text-align: center;
-  font-size: 27px;
-  margin-top: 35px;
+  margin-bottom: 65px;
+  margin-top: 20px;
+}
+
+.hero-img {
+  max-width: 35vw;
+}
+
+
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  #timer {
+    font-size: 5vw;
+    padding-top: 100px;
+  }
+  .theme-header-h1 {
+    font-size: 8vw;
+  }
+  .tagline-h3, .unleash {
+    font-size: 5vw;
+  }
+  .tagline {
+    padding-top: 30px;
+  }
+  .hero-img {
+    max-width: 20vw;
+  }
+
 }

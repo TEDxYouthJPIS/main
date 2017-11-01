@@ -245,34 +245,8 @@ html {
   cursor: pointer
 }
 
-.theme-header {
-  position: sticky;
-  display: block;
-  left: 51%;
-  top: 30%;
-  margin: 0 100px;
-}
 
-.theme-header-h1 {
-  text-align: center;
-  font-size: 3em;
-  color: #000;
-  z-index: 11;
-}
 
-.tagline {
-  position: sticky;
-  display: block;
-  left: 51%;
-  top: 40%;;
-}
-
-.tagline-h3 {
-  text-align: center;
-  font-size: 1.5em;
-  color: #000;
-  z-index: 11;
-}
 /*rgb(119,119,119)*/
 
 .box-icon__shadow {
@@ -524,7 +498,7 @@ html {
   left: 0;
   /*background: #33beff url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/pattern.svg) repeat left center;
   background: #f5e314 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/pattern.svg) repeat left center; */
-  background: rgb(26,172,171) url("/Users/apple/desktop/TEDx/main/assets/images/lock_small.png") repeat left center;
+  background: rgb(104,192,150) url("/Users/apple/desktop/TEDx/main/assets/images/lock_small.png") repeat left center;
 
 }
 
