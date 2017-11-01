@@ -498,7 +498,7 @@ html {
   left: 0;
   /*background: #33beff url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/pattern.svg) repeat left center;
   background: #f5e314 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/pattern.svg) repeat left center; */
-  background: rgb(104,192,150) url("/assets/images/lock_small.png") repeat left center;
+  background: rgb(104,192,150) url(http://tedxyouthjpis.com/assets/images/lock_small.png) repeat left center;
 
 }
 
@@ -529,7 +529,7 @@ html {
 }
 
 .cover__item--left:after {
-  background-image: url("/assets/images/lock_small.png")
+  background-image: url(http://tedxyouthjpis.com/assets/images/lock_small.png)
 }
 
 .cover__item--left {
@@ -617,11 +617,11 @@ body {
 }
 
 .peel-item--left .peel-item__bg__inner {
-  background: #000 url("/assets/images/small-semi-x.jpg") right center no-repeat;
+  background: #000 url(http://tedxyouthjpis.com/assets/images/small-semi-x.jpg) right center no-repeat;
   transform: scaleX(1);
 }
 .peel-item--right .peel-item__bg__inner {
-  background: #000 url("assets/images/small-semi-x.jpg") right center no-repeat;
+  background: #000 url(http://tedxyouthjpis.com/assets/images/small-semi-x.jpg) right center no-repeat;
   transform: scaleX(-1);
 }
 
