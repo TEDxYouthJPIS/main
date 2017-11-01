@@ -7,7 +7,7 @@
 }
 
 #override .navbar {
-  z-index: 11;
+  z-index: 14;
 }
 
 .text-center {
@@ -124,7 +124,7 @@
 /*NAVBAR OVERRIDING*/
 
 #override .navbar {
-  background-color: rgb(252, 46, 31);
+  background-color: rgba(252, 46, 31, 1);
   border: none;
 }
 

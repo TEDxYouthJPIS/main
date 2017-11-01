@@ -382,6 +382,10 @@ html {
   opacity: .02
 }
 
+/*.box__item--left, .box__item--right {
+  height: 100%;
+  width: 12.95%
+}*/
 .box__item--left, .box__item--right {
   height: 100%;
   width: 12.95%
@@ -429,6 +433,11 @@ html {
   opacity: .01
 }
 
+/*.box__item--bottom, .box__item--top {
+  height: 360px;
+  width: 100%
+}*/
+
 .box__item--bottom, .box__item--top {
   height: 360px;
   width: 100%
@@ -469,7 +478,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 10;
+  z-index: 12;
   -webkit-perspective: 600000px;
   -ms-perspective: 600000px;
   perspective: 600000px
@@ -515,7 +524,7 @@ html {
   left: 0;
   /*background: #33beff url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/pattern.svg) repeat left center;
   background: #f5e314 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/pattern.svg) repeat left center; */
-  background: #08d6bb url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/pattern.svg) repeat left center;
+  background: rgb(26,172,171) url("/Users/apple/desktop/TEDx/main/assets/images/lock_small.png") repeat left center;
 
 }
 
@@ -546,7 +555,7 @@ html {
 }
 
 .cover__item--left:after {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/6859/pattern2.svg)
+  background-image: url("/Users/apple/desktop/TEDx/main/assets/images/lock_small.png")
 }
 
 .cover__item--left {
@@ -621,7 +630,8 @@ body {
 }
 
 .peel-item__bg__inner {
-  background: #000 left bottom;
+  /*background: url ("/Users/apple/desktop/pattern.png") left bottom;*/
+  /*background: #000 url("/Users/apple/desktop/semi-x.jpg") right center no-repeat;*/
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
@@ -631,6 +641,18 @@ body {
   top: 0;
   left: 0
 }
+
+.peel-item--left .peel-item__bg__inner {
+  background: #000 url("/Users/apple/desktop/small-semi-x.jpg") right center no-repeat;
+  transform: scaleX(1);
+}
+.peel-item--right .peel-item__bg__inner {
+  background: #000 url("/Users/apple/desktop/small-semi-x.jpg") right center no-repeat;
+  transform: scaleX(-1);
+}
+
+
+
 
 .peel-item__gradient {
   max-width: 80px
@@ -645,7 +667,7 @@ body {
 }
 
 .peel-item--left .peel-item__bg__inner {
-  background-position: right bottom
+
 }
 
 .peel-item--left .peel-item__white {
