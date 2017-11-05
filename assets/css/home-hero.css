@@ -99,5 +99,8 @@ and (orientation : portrait) {
   .hero-img {
     max-width: 60vw;
   }
+  .hero-wrapper {
+    margin-top: 200px;
+  }
 
 }
