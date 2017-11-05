@@ -9,7 +9,6 @@ body, html {
   min-width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden
 }
 
 body {
@@ -50,6 +49,15 @@ html {
   -webkit-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
   transform: translateY(-5px)
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  .scroll-suggest {
+    left: 47%;
+  }
 }
 
 .scroll-suggest__content {
