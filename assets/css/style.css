@@ -2,6 +2,37 @@
   font-family: 'Roboto';
 }
 
+/*NAVBAR OVERRIDING*/
+
+#override .navbar {
+  background-color: rgba(50,50,50, 1);
+  border: none;
+}
+
+#override .navbar-default a {
+  color: #fff;
+  -o-transition:background-color .2s;
+  -ms-transition:background-color .2s;
+  -moz-transition:background-color .2s;
+  -webkit-transition:background-color .2s;
+  transition:background-color .2s;
+  transition-timing-function: ease-in-out;
+}
+
+#override .active a {
+  color: rgb(252, 46, 31);
+  background-color: white;
+}
+
+#override .navbar .icon-bar {
+  background-color: rgb(252, 46, 31);
+  border-color: rgb(252, 46, 31);
+}
+
+#override .navbar .icon-bar:hover {
+  border-color: black;
+}
+
 #override button:focus {
   outline: 0;
 }
@@ -10,9 +41,31 @@
   z-index: 14;
 }
 
-#override .navbar-default .navbar-toggle:hover, #override .navbar-default .navbar-toggle:focus,  {
+#override .navbar-default .navbar-toggle:hover, #override .navbar-default .navbar-toggle:focus  {
   background-color: rgba(255,255,255,0.9);
   border-color: rgba(255,255,255,0.9);
+}
+
+#override .navbar-default a:active,#override .navbar-default a:hover  {
+  background-color: rgba(255,255,255,1);
+  border-color: rgba(255,255,255,1);
+  color: rgb(252, 46, 31);
+}
+
+#override .navbar-default .dropdown a:hover, a:focus {
+  background-color: rgba(255,255,255,1);
+  border-color: rgba(255,255,255,1);
+  color: rgb(252, 46, 31);
+}
+
+#override .nav .open a {
+  background-color: rgba(50,50,50, 1);
+  border: none;
+}
+
+#override .dropdown-menu {
+  background-color: rgba(50,50,50, 1);
+  border: none;
 }
 
 #override .navbar-default .navbar-toggle {
@@ -140,30 +193,6 @@
   -webkit-transform: scale(1.01);
 }
 
-/*NAVBAR OVERRIDING*/
-
-#override .navbar {
-  background-color: rgba(50,50,50, 1);
-  border: none;
-}
-
-#override .navbar a {
-  color: #fff;
-}
-
-#override .active a {
-  color: rgb(252, 46, 31);
-  background-color: white;
-}
-
-#override .navbar .icon-bar {
-  background-color: rgb(252, 46, 31);
-  border-color: rgb(252, 46, 31);
-}
-
-#override .navbar .icon-bar:hover {
-  border-color: black;
-}
 
 #map {
   height: 400px;
