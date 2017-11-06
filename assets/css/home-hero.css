@@ -77,7 +77,35 @@
 }
 
 
+/*IPHONE 5*/
 
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #timer {
+      font-size: 4.5vw;
+
+    }
+    .theme-header-h1 {
+      font-size: 6.0vw;
+    }
+    .tagline-h3, .unleash {
+      font-size: 5vw;
+    }
+    .tagline {
+
+    }
+    .hero-img {
+      max-width: 55vw;
+    }
+    .hero-wrapper {
+      margin-top: 215px;
+    }
+}
+
+
+/*IPHONE 6,7,8*/
 
 @media only screen
 and (min-device-width : 375px)
@@ -101,6 +129,47 @@ and (orientation : portrait) {
   }
   .hero-wrapper {
     margin-top: 215px;
+  }
+
+}
+
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+
+} {
+  #timer {
+    font-size: 5vw;
+
+  }
+  .theme-header-h1 {
+    font-size: 6.5vw;
+  }
+  .tagline-h3, .unleash {
+    font-size: 5vw;
+  }
+  .tagline {
+
+  }
+  .hero-img {
+    max-width: 60vw;
+  }
+  .hero-wrapper {
+    margin-top: 215px;
+  }
+
+}
+
+
+
+@media only screen
+and (min-device-width : 1800px)
+and (max-device-width : 2400px) {
+
+  .hero-wrapper {
+    margin-top: 415px;
   }
 
 }
