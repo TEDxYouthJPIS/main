@@ -507,3 +507,9 @@
 .team col col-md-6 col-lg-4 col-sm-12{
   height: 456.6px;
 }
+
+
+.form-iframe {
+  max-width: 100%;
+  
+}
