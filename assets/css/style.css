@@ -530,6 +530,9 @@ and (orientation : portrait) {
     text-align: center;
     font-size: 2.0em;
   }
+  iframe {
+    max-width: 375px;
+  }
 
 }
 
