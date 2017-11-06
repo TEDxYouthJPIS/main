@@ -113,7 +113,6 @@ and (max-device-width : 667px)
 and (orientation : portrait) {
   #timer {
     font-size: 5vw;
-
   }
   .theme-header-h1 {
     font-size: 6.5vw;
