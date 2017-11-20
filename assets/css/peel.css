@@ -537,7 +537,7 @@ and (orientation : portrait) {
 }
 
 .cover__item--left:after {
-  background-image: url(http://tedxyouthjpis.com/assets/images/lock_small.png)
+  background-image: rgb(36,45,62) url(http://tedxyouthjpis.com/assets/images/lock_small.png)
 }
 
 .cover__item--left {
