@@ -172,3 +172,13 @@ and (max-device-width : 2400px) {
   }
 
 }
+
+@media only screen
+and (min-device-width : 900px)
+and (max-device-width : 1440px)  {
+
+  .hero-wrapper {
+    margin-top: 320px;
+  }
+
+}
